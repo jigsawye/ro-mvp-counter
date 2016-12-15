@@ -1,6 +1,6 @@
-# ro-mvp-alarm-clock
+# RO MVP 重生計數器
 
-> A Vue.js project
+![](images/01.png)
 
 ## Build Setup
 
