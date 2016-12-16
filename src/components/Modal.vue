@@ -25,6 +25,30 @@
         </div>
         <div class="control is-horizontal">
           <div class="control-label">
+            <label class="label">等級</label>
+          </div>
+          <p class="control">
+            <input class="input" type="number" v-model="monster.lv">
+          </p>
+        </div>
+        <div class="control is-horizontal">
+          <div class="control-label">
+            <label class="label">血量</label>
+          </div>
+          <p class="control">
+            <input class="input" type="number" v-model="monster.hp">
+          </p>
+        </div>
+        <div class="control is-horizontal">
+          <div class="control-label">
+            <label class="label">資訊</label>
+          </div>
+          <p class="control">
+            <input class="input" type="text" v-model="monster.detail">
+          </p>
+        </div>
+        <div class="control is-horizontal">
+          <div class="control-label">
             <label class="label">地圖</label>
           </div>
           <p class="control">
